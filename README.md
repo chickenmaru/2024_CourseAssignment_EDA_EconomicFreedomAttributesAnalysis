@@ -93,6 +93,19 @@ The flowchart after data splitting is shown in the figure below.
 
 <img width="688" height="573" alt="image" src="https://github.com/user-attachments/assets/831b7fd3-2812-4073-a605-d90992877446" />
 
+The generated data is as follows.
+
+<img width="636" height="645" alt="image" src="https://github.com/user-attachments/assets/d5b84aa2-36f5-4799-a60e-54fbe339d6d4" />
+
+
+The generated line chart is as follows.
+<img width="693" height="555" alt="image" src="https://github.com/user-attachments/assets/d413ad1d-b19d-4e0d-bb47-b6d39d7a6541" />
+
+
+
+
+
+
 
 
 
