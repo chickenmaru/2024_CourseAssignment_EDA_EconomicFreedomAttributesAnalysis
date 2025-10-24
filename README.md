@@ -3,42 +3,42 @@
 # ⚙️ Flow
 ## 1.Simple Explanation of Dataset and All Attributes' Meanings
 
-Attribute Name,Attribute Meaning
-year,Measures the year
-ECONOMIC_FREEDOM,"An indicator measuring the degree of economic freedom in a country, typically considering factors such as market freedom, property rights protection, and government regulations."
-rank,"Displays the country's position in the economic freedom ranking, possibly from 1 to N, with lower ranks indicating higher economic freedom."
-quartile,"Indicates which quartile it falls into, with the first quartile representing the highest freedom and the fourth quartile the lowest."
-1a_government_consumption,Refers to the proportion of government consumption in the gross domestic product. Higher government consumption may indicate a higher degree of government intervention in the economy.
-1b_transfer,"Refers to funds provided by the government to individuals or other entities through various forms of transfer payments (such as social welfare, subsidies, etc.)."
-1c_gov_enterprices,Indicates the number of enterprises owned or controlled by the government or its role in the economy. Higher values may mean a higher degree of direct government participation in economic activities.
-1d_top_marg_tax_rate,Refers to the highest tax rate imposed on the highest income bracket. High top marginal tax rates may affect economic activities and incentives for producers.
-1_size_government,The size and role of the government in the economy. A smaller government may imply more market freedom and private sector participation.
-2a_judicial_independence,Whether the judicial system is independent from political and other influences to protect the rights of individuals and businesses.
-2b_impartial_courts,"Whether courts are fair, unbiased, and able to treat everyone equally."
-2c_protection_property_rights,Whether the government effectively protects the property rights of individuals and businesses to encourage investment and economic activities.
-2d_military_interference,"Whether the military participates in or interferes with economic affairs, which may cause instability in the investment and business environment."
-2e_integrity_legal_system,The integrity of the legal system and the effectiveness of anti-corruption measures.
-2f_legal_enforcement_contracts,The efficiency and reliability of the legal system in enforcing contracts.
-2g_restrictions_sale_real_property,Possible restrictions or legal regulations in the sale of real property.
-2h_reliability_police,The credibility and effectiveness of the police department in maintaining public order and social safety.
-2i_business_costs_crime,"Costs faced by businesses due to criminal activities, including security costs and asset losses."
-2j_gender_adjustment,Adjustments to certain indicators based on gender to reflect gender equality and fairness.
-2_property_rights,Overall assessment in the economic freedom index regarding the protection and enforcement of property rights.
-3a_money_growth,"The growth rate of the money supply, which may be related to inflation and monetary stability."
-3b_std_inflation,The degree of variation or instability in the inflation rate.
-3c_inflation,The rate of increase in the price level.
-3d_freedom_own_foreign_currency,The degree of freedom for individuals or businesses to hold and use foreign currency.
-3_sound_money,Overall assessment in the economic freedom index regarding monetary stability and soundness.
-4a_tariffs,The existence and level of import and export tariffs.
-4b_regulatory_trade_barriers,"Non-tariff trade barriers, such as import and export restrictions and regulations."
-4c_black_market,"The existence and scale of black market activities, which may reflect the imperfection of the official market."
-4d_control_movement_capital_ppl,The degree of control over the movement of capital and people.
-4_trade,Overall assessment in the economic freedom index regarding the freedom of international trade.
-5a_credit_market_reg,"The degree of regulation in the credit market, which may involve banking regulation and credit conditions."
-5b_labor_market_reg,"The degree of regulation in the labor market, including union laws and employment conditions."
-5c_business_reg,"The degree of regulation in business activities, including licenses and industry standards."
-5_regulation,Overall assessment in the economic freedom index regarding various regulatory aspects.
-
+| Attribute Name | Attribute Meaning |
+| :--- | :--- |
+| `year` | Measures the year |
+| `ECONOMIC_FREEDOM` | An indicator measuring the degree of economic freedom in a country, typically considering factors such as market freedom, property rights protection, and government regulations. |
+| `rank` | Displays the country's position in the economic freedom ranking, possibly from 1 to N, with lower ranks indicating higher economic freedom. |
+| `quartile` | Indicates which quartile it falls into, with the first quartile representing the highest freedom and the fourth quartile the lowest. |
+| `1a_government_consumption` | Refers to the proportion of government consumption in the gross domestic product. Higher government consumption may indicate a higher degree of government intervention in the economy. |
+| `1b_transfer` | Refers to funds provided by the government to individuals or other entities through various forms of transfer payments (such as social welfare, subsidies, etc.). |
+| `1c_gov_enterprises` | Indicates the number of enterprises owned or controlled by the government or its role in the economy. Higher values may mean a higher degree of direct government participation in economic activities. |
+| `1d_top_marg_tax_rate` | Refers to the highest tax rate imposed on the highest income bracket. High top marginal tax rates may affect economic activities and incentives for producers. |
+| `1_size_government` | The size and role of the government in the economy. A smaller government may imply more market freedom and private sector participation. |
+| `2a_judicial_independence` | Whether the judicial system is independent from political and other influences to protect the rights of individuals and businesses. |
+| `2b_impartial_courts` | Whether courts are fair, unbiased, and able to treat everyone equally. |
+| `2c_protection_property_rights` | Whether the government effectively protects the property rights of individuals and businesses to encourage investment and economic activities. |
+| `2d_military_interference` | Whether the military participates in or interferes with economic affairs, which may cause instability in the investment and business environment. |
+| `2e_integrity_legal_system` | The integrity of the legal system and the effectiveness of anti-corruption measures. |
+| `2f_legal_enforcement_contracts` | The efficiency and reliability of the legal system in enforcing contracts. |
+| `2g_restrictions_sale_real_property` | Possible restrictions or legal regulations in the sale of real property. |
+| `2h_reliability_police` | The credibility and effectiveness of the police department in maintaining public order and social safety. |
+| `2i_business_costs_crime` | Costs faced by businesses due to criminal activities, including security costs and asset losses. |
+| `2j_gender_adjustment` | Adjustments to certain indicators based on gender to reflect gender equality and fairness. |
+| `2_property_rights` | Overall assessment in the economic freedom index regarding the protection and enforcement of property rights. |
+| `3a_money_growth` | The growth rate of the money supply, which may be related to inflation and monetary stability. |
+| `3b_std_inflation` | The degree of variation or instability in the inflation rate. |
+| `3c_inflation` | The rate of increase in the price level. |
+| `3d_freedom_own_foreign_currency` | The degree of freedom for individuals or businesses to hold and use foreign currency. |
+| `3_sound_money` | Overall assessment in the economic freedom index regarding monetary stability and soundness. |
+| `4a_tariffs` | The existence and level of import and export tariffs. |
+| `4b_regulatory_trade_barriers` | Non-tariff trade barriers, such as import and export restrictions and regulations. |
+| `4c_black_market` | The existence and scale of black market activities, which may reflect the imperfection of the official market. |
+| `4d_control_movement_capital_ppl` | The degree of control over the movement of capital and people. |
+| `4_trade` | Overall assessment in the economic freedom index regarding the freedom of international trade. |
+| `5a_credit_market_reg` | The degree of regulation in the credit market, which may involve banking regulation and credit conditions. |
+| `5b_labor_market_reg` | The degree of regulation in the labor market, including union laws and employment conditions. |
+| `5c_business_reg` | The degree of regulation in business activities, including licenses and industry standards. |
+| `5_regulation` | Overall assessment in the economic freedom index regarding various regulatory aspects. |
 ## 2.Keep/set ISO_code and countries as meta attributes, then use Feature Statistics to analyze and explain the value ranges and missing value proportions of the other columns. 
 
 By sorting the missing values in descending order, we can identify the attributes with more missing values as the following attributes. The attribute with the most missing values is 2h_reliability_p, with up to 56% of the columns being missing values.
